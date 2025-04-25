@@ -84,22 +84,7 @@ filterBtns.forEach(btn => {
 //---------Project section js End
 
 
-//---------Testimonil Section js start------
-// Testimonial Animation
-const testimonialItems = document.querySelectorAll('.testimonial-item');
-const testimonialObserver = new IntersectionObserver((entries) => {
-    entries.forEach((entry, index) => {
-        if (entry.isIntersecting) {
-            setTimeout(() => {
-                entry.target.classList.add('show');
-            }, index * 200);
-        }
-    });
-}, { threshold: 0.1 });
 
-testimonialItems.forEach(item => {
-    testimonialObserver.observe(item);
-});
 
 // Update year in footer
 document.getElementById('year').textContent = new Date().getFullYear();
