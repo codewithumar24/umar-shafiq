@@ -491,9 +491,9 @@
   .html { --target-width: 95%; }
   .css { --target-width: 90%; }
   .javascript { --target-width: 85%; }
-  .react { --target-width: 80%; }
-  .node { --target-width: 75%; }
-  .php { --target-width: 80%; } /* Example additional skill */
+  .php { --target-width: 80%; }
+  .mySql { --target-width: 75%; }
+  .laravel { --target-width: 80%; } /* Example additional skill */
   
   @keyframes gradientFlow {
     0% { background-position: 0% 50%; }
@@ -1071,7 +1071,7 @@ html {
 
 /* Loader CSS Strat */
 /* Loader */
-.loader {
+/* .loader {
     position: fixed;
     top: 0;
     left: 0;
@@ -1102,7 +1102,7 @@ html {
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
-}
+} */
 
 /* Loader CSS End */
 

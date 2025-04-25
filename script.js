@@ -106,12 +106,12 @@ document.getElementById('year').textContent = new Date().getFullYear();
 
 // --- Loader js Start----
 // Loader
-window.addEventListener('load', () => {
-    const loader = document.querySelector('.loader');
-    setTimeout(() => {
-        loader.classList.add('fade-out');
-    }, 1000);
-});
+// window.addEventListener('load', () => {
+//     const loader = document.querySelector('.loader');
+//     setTimeout(() => {
+//         loader.classList.add('fade-out');
+//     }, 1000);
+// });
 // --- Loader js End----
 
 // Back to Top Button js ----
